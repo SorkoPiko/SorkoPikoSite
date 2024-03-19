@@ -1,7 +1,8 @@
 import { Logo } from "@/components/Logo";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+import { SocialIcon } from 'react-social-icons'
 
-export default function Main() {
+export default function Home() {
 	return (
 		<>
 			<Navbar height="100" shouldHideOnScroll isBordered>
@@ -10,8 +11,8 @@ export default function Main() {
 					<p className="font-bold text-inherit text-2xl">SorkoPiko</p>
 				</NavbarBrand>
 				<NavbarContent className="hidden sm:flex gap-4" justify="center">
-					<NavbarItem isActive>
-						<Link href="#" aria-current="page">
+					<NavbarItem>
+						<Link color="foreground" href="/">
 							Home
 						</Link>
 					</NavbarItem>
@@ -25,17 +26,19 @@ export default function Main() {
 							Projects
 						</Link>
 					</NavbarItem>
-					<NavbarItem>
-						<Link color="foreground" href="/contact">
+					<NavbarItem isActive>
+						<Link href="#" aria-current="page">
 							Contact
 						</Link>
 					</NavbarItem>
 				</NavbarContent>
 			</Navbar>
-			<div className="flex justify-center items-center h-screen">
+			<div className="px-6 flex gap-4 flex-col pb-16 flex-grow">
 				<h1 className="mt-4 font-bold text-4xl">
 					Welcome to SorkoPiko
 				</h1>
+				<p>hey</p>
+				<SocialIcon url="https://youtube.com/@SorkoPiko" />
 			</div>
 		</>
 	);

@@ -1,7 +1,7 @@
 import { Logo } from "@/components/Logo";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
-export default function Main() {
+export default function Home() {
 	return (
 		<>
 			<Navbar height="100" shouldHideOnScroll isBordered>
@@ -10,13 +10,13 @@ export default function Main() {
 					<p className="font-bold text-inherit text-2xl">SorkoPiko</p>
 				</NavbarBrand>
 				<NavbarContent className="hidden sm:flex gap-4" justify="center">
-					<NavbarItem isActive>
-						<Link href="#" aria-current="page">
+					<NavbarItem>
+						<Link color="foreground" href="/">
 							Home
 						</Link>
 					</NavbarItem>
-					<NavbarItem>
-						<Link color="foreground" href="/about">
+					<NavbarItem isActive>
+						<Link href="#" aria-current="page">
 							About
 						</Link>
 					</NavbarItem>
@@ -32,7 +32,7 @@ export default function Main() {
 					</NavbarItem>
 				</NavbarContent>
 			</Navbar>
-			<div className="flex justify-center items-center h-screen">
+			<div className="flex justify-center items-center">
 				<h1 className="mt-4 font-bold text-4xl">
 					Welcome to SorkoPiko
 				</h1>
