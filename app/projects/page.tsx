@@ -1,7 +1,7 @@
 import { Logo } from "@/components/Logo";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
-export default function Home() {
+export default function Projects() {
 	return (
 		<>
 			<Navbar height="100" shouldHideOnScroll isBordered>
