@@ -1,0 +1,72 @@
+ {
+  "projects": [
+    {
+      "name": "Personal Site",
+      "description": "My new website, written in NextJS. This was my first web framework project.",
+      "startTimestamp": 1710680400,
+      "status": "Ongoing",
+      "link": "https://github.com/SorkoPiko/SorkoPikoSite",
+      "extra": {
+        "height": 20,
+        "width": 166,
+        "src": "https://wakatime.com/badge/github/SorkoPiko/SorkoPikoSite.svg",
+        "alt": "wakatime"
+      }
+    },
+    {
+      "name": "Oasis Events",
+      "description": "A Minecraft event server with custom plugins and events. Co-owned with a friend.",
+      "startTimestamp": 1706706000,
+      "status": "Ongoing"
+    },
+    {
+      "name": "Skript Plugins",
+      "description": "Description",
+      "startTimestamp": 1709211600,
+      "status": "Ongoing"
+    },
+    {
+      "name": "Ballsdex Utils",
+      "description": "A discord bot created to improve the Ballsdex experience. Includes many QOL features.",
+      "startTimestamp": 1696082400,
+      "status": "Abandoned",
+      "link": "https://github.com/SorkoPiko/BallsdexUtils"
+    },
+    {
+      "name": "BetterBlooket",
+      "description": "Blooket client with extra features and plugin support. Abanonded due to cease and desist.",
+      "startTimestamp": 1685541600,
+      "endTimestamp": 1690812000,
+      "status": "Abandoned",
+      "link": "https://github.com/SorkoPiko/BetterBlooket-Releases"
+    },
+    {
+      "name": "Pirate Pufferfish",
+      "description": "A discord bot that allows you to manage your Blooket account through Discord.",
+      "startTimestamp": 1680267600,
+      "status": "Abandoned"
+    },
+    {
+      "name": "Blooket-Cheats",
+      "description": "Blooket cheats repository. Has been taken down many times due to cease and desist.",
+      "startTimestamp": 1672491600,
+      "status": "Ongoing",
+      "link": "https://gitlab.com/blooket/blooket-cheats"
+    },
+    {
+      "name": "goldenCookieSettings",
+      "description": "Cookie Clicker add-on, adding settings to control how golden cookies behave.",
+      "startTimestamp": 1651327200,
+      "status": "Finished",
+      "link": "https://github.com/SorkoPiko/goldenCookieSettings"
+    },
+    {
+      "name": "ServerManager",
+      "description": "My first Discord bot, used to manage your Discord server. This was my first Discord.py project.",
+      "startTimestamp": 1588255200,
+      "endTimestamp": 1633010400,
+      "status": "Abandoned",
+      "link": "https://github.com/SorkoPiko/ServerManager"
+    }
+  ]
+}

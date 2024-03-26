@@ -1,41 +1,41 @@
-import { Logo } from "@/components/Logo";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+"use client";
+
+import { Typewriter } from "react-simple-typewriter";
+import projects from "../public/projects.json";
+import { Project } from "@/components/Project";
+
+projects.projects.sort(function (a, b) {
+	return b.startTimestamp - a.startTimestamp;
+});
+
+const latestProject = projects.projects[0];
 
 export default function Main() {
 	return (
 		<>
-			<Navbar height="100" shouldHideOnScroll isBordered>
-				<NavbarBrand>
-					<Logo size="100" />
-					<p className="font-bold text-inherit text-2xl">SorkoPiko</p>
-				</NavbarBrand>
-				<NavbarContent className="hidden sm:flex gap-4" justify="center">
-					<NavbarItem isActive>
-						<Link href="#" aria-current="page">
-							Home
-						</Link>
-					</NavbarItem>
-					<NavbarItem>
-						<Link color="foreground" href="/about">
-							About
-						</Link>
-					</NavbarItem>
-					<NavbarItem>
-						<Link color="foreground" href="/projects">
-							Projects
-						</Link>
-					</NavbarItem>
-					<NavbarItem>
-						<Link color="foreground" href="/contact">
-							Contact
-						</Link>
-					</NavbarItem>
-				</NavbarContent>
-			</Navbar>
-			<div className="flex justify-center items-center h-screen">
-				<h1 className="mt-4 font-bold text-4xl">
-					Welcome to SorkoPiko
+			<div className="flex-col flex justify-center items-center py-56">
+				<h1 className="w-auto font-bold text-6xl from-20% bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-purple-400 float-left">
+					SorkoPiko
 				</h1>
+				<h1 className="text-5xl">
+					<Typewriter
+						words={[
+							"python developer",
+							"skript developer",
+							"web developer",
+							"discord bot developer",
+							"open source contributor",
+						]}
+						loop={0}
+						cursor={true}
+						cursorStyle="_"
+						deleteSpeed={35}
+					/>
+				</h1>
+				<div className="mt-24">
+					<h1 className="text-2xl text-center">{(latestProject.status === "Ongoing") ? "Current Project" : "Latest Project"}</h1>
+					<Project {...latestProject} />
+				</div>
 			</div>
 		</>
 	);
