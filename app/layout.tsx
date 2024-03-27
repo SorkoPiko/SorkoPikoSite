@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { CustomNavbar } from "@/components/Navbar";
+import { CustomParticles } from "@/components/Particles";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
 				<Providers>
 					<div className="min-h-screen">
 					<CustomNavbar />
+					<CustomParticles />
 					{children}
 					</div>
 				</Providers>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	z-index: 1;
+}
+
 :root {
 	--foreground-rgb: 0, 0, 0;
 	--background-rgb: 214, 219, 220;
@@ -17,10 +21,26 @@
 body {
 	color: rgb(var(--foreground-rgb));
 	background-color: rgb(var(--background-rgb));
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
+	z-index: -1;
 }
 
 .projectcard {
-	width: 540px;
+	width: 600px;
 	min-height: 100px;
+}
+
+#tsparticles {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
+
+.about {
+	width: 800px;
 }
