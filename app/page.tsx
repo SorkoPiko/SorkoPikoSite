@@ -13,7 +13,7 @@ const latestProject = projects.projects[0];
 export default function Main() {
 	return (
 		<>
-			<div className="flex-col flex justify-center items-center py-56">
+			<div className="flex-col flex justify-center items-center mt-24">
 				<h1 className="w-auto font-bold text-6xl from-20% bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-purple-400 float-left">
 					SorkoPiko
 				</h1>

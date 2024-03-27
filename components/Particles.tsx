@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import * as configs from "@tsparticles/configs";
 import { type Container, type ISourceOptions } from "@tsparticles/engine";
 // import { loadAll } from "@tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
@@ -30,8 +29,6 @@ export const CustomParticles = () => {
 	const particlesLoaded = async (container?: Container): Promise<void> => {
 		console.log(container);
 	};
-
-	configs;
 
 	const e = {
 		name: "Parallax",

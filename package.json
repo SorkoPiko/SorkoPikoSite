@@ -16,15 +16,12 @@
     "next": "^14.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-particles": "^2.12.2",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^6.15.0",
-    "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.3.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
-    "@tsparticles/configs": "^3.3.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
