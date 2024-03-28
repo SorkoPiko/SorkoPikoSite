@@ -80,7 +80,6 @@ export const CustomParticles = () => {
 			},
 		},
 		interactivity: {
-			detectsOn: "window",
 			events: {
 				onHover: {
 					enable: !0,
