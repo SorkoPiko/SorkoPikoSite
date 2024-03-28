@@ -9,7 +9,6 @@ export default function Contact() {
 					Socials
 				</h1>
 				<div className="flex space-x-2">
-					<SocialIcon target="_blank" url="https://youtube.com/@SorkoPiko" />
 					<Popover placement="right" showArrow={true}>
 						<PopoverTrigger>
 								<SocialIcon network="discord" url="#" />
@@ -20,12 +19,13 @@ export default function Contact() {
 							</div>
 						</PopoverContent>
 					</Popover>
+					<SocialIcon target="_blank" url="https://youtube.com/@SorkoPiko" />
 					<SocialIcon target="_blank" url="https://x.com/SorkoPiko" />
 					<SocialIcon target="_blank" url="https://reddit.com/user/SorkoPiko" />
 					<SocialIcon target="_blank" url="https://twitch.tv/SorkoPiko" />
 					<SocialIcon target="_blank" url="https://au.linkedin.com/in/sorkopiko" />
 				</div>
-				<p>I am most active on Discord, so contact me there first.</p>
+				<p className="w-96 text-center">I am most active on Discord. If you wish to contact me, send me a friend request, and I will respond as soon as possible.</p>
 			</div>
 		</>
 	);

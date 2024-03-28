@@ -3,7 +3,7 @@
 		{
 			"name": "Personal Site",
 			"description": "My new website, written in NextJS. This was my first web framework project.",
-			"startTimestamp": 1710680400,
+			"startTimestamp": 1710720000,
 			"status": "Finished",
 			"link": "https://github.com/SorkoPiko/SorkoPikoSite",
 			"extra": {
@@ -15,8 +15,8 @@
 		},
 		{
 			"name": "Pikopian Empire Bot",
-			"description": "Private Discord bot for the Pikopian Empire Discord server. Includes many features such as a custom economy system, moderation commands, and more.",
-			"startTimestamp": 1704027600,
+			"description": "Private Discord bot to link a Hypxixel guild to a Discord server. Includes many features such as guild stats, automatic Bedwars stats updates and more.",
+			"startTimestamp": 1704067200,
 			"status": "Ongoing",
 			"extra": {
 				"height": 20,
@@ -28,13 +28,13 @@
 		{
 			"name": "Oasis Events",
 			"description": "A Minecraft event server with custom plugins and events. Co-owned with a friend.",
-			"startTimestamp": 1706706000,
+			"startTimestamp": 1706745600,
 			"status": "Ongoing"
 		},
 		{
 			"name": "Skript Plugins",
 			"description": "Minecraft server plugins, created on request. Past work: Mythic SMP Plugin, Oasis Events Plugin, Hunters SMP Plugin.",
-			"startTimestamp": 1706706000,
+			"startTimestamp": 1706745600,
 			"status": "Ongoing",
 			"extra": {
 				"height": 20,
@@ -46,22 +46,22 @@
 		{
 			"name": "Ballsdex Utils",
 			"description": "A Discord bot created to improve the Ballsdex experience. Includes many QOL features.",
-			"startTimestamp": 1696082400,
+			"startTimestamp": 1696122000,
 			"status": "Abandoned",
 			"link": "https://github.com/SorkoPiko/BallsdexUtils"
 		},
 		{
 			"name": "BetterBlooket",
 			"description": "Blooket client with extra features and plugin support. Abanonded due to cease and desist.",
-			"startTimestamp": 1685541600,
-			"endTimestamp": 1690812000,
+			"startTimestamp": 1685581200,
+			"endTimestamp": 1690851600,
 			"status": "Abandoned",
 			"link": "https://github.com/SorkoPiko/BetterBlooket-Releases"
 		},
 		{
 			"name": "Pirate Pufferfish",
 			"description": "A Discord bot that allows you to manage your Blooket account through Discord.",
-			"startTimestamp": 1680267600,
+			"startTimestamp": 1680307200,
 			"status": "Abandoned"
 		},
 		{
@@ -81,16 +81,16 @@
 		{
 			"name": "ServerManager",
 			"description": "My first Discord bot, used to manage your Discord server. This was my first Discord.py project.",
-			"startTimestamp": 1588255200,
-			"endTimestamp": 1633010400,
+			"startTimestamp": 1588294800,
+			"endTimestamp": 1633050000,
 			"status": "Abandoned",
 			"link": "https://github.com/SorkoPiko/ServerManager"
 		},
 		{
 			"name": "Personal Site",
 			"description": "My old website, written in HTML, CSS, and JS. This was my first web project.",
-			"startTimestamp": 1525096800,
-			"endTimestamp": 1685541600,
+			"startTimestamp": 1525136400,
+			"endTimestamp": 1685581200,
 			"status": "Abandoned"
 		}
 	]
