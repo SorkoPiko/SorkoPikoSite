@@ -21,7 +21,8 @@ export default function Main() {
 					<Typewriter
 						words={[
 							"python developer",
-							"skript developer",
+							"java developer",
+							"unity developer",
 							"web developer",
 							"discord bot developer",
 							"open source contributor",
