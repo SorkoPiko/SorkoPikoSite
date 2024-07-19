@@ -26,6 +26,8 @@ export default function Main() {
 							"web developer",
 							"discord bot developer",
 							"open source contributor",
+							"geode mod developer",
+							"api developer"
 						]}
 						loop={0}
 						cursor={true}

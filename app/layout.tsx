@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { CustomNavbar } from "@/components/Navbar";
 import { CustomParticles } from "@/components/Particles";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
 					<CustomParticles />
 					{children}
 					</div>
+					<Analytics />
 				</Providers>
 			</body>
 		</html>
