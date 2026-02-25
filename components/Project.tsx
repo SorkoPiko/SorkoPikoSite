@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+const FINISHED_STATUSES = ["Finished", "Maintained"];
+const ONGOING_STATUSES = ["Ongoing"];
+const ABANDONED_STATUSES = ["Abandoned", "Discontinued"];
+
 export type Badge = {
 	src: string;
 	alt: string;
@@ -71,17 +75,17 @@ export const Project = ({
 					<p className="text-xs font-semibold rounded-md px-2 py-0.5 bg-slate-900">
 						{time}
 					</p>
-					{status === "Finished" && (
+					{FINISHED_STATUSES.includes(status) && (
 						<p className="text-xs font-semibold rounded-md px-2 py-0.5 bg-green-300 text-black">
 							{status}
 						</p>
 					)}
-					{status === "Ongoing" && (
+					{ONGOING_STATUSES.includes(status) && (
 						<p className="text-xs font-semibold rounded-md px-2 py-0.5 bg-yellow-300 text-black">
 							{status}
 						</p>
 					)}
-					{status === "Abandoned" && (
+					{ABANDONED_STATUSES.includes(status) && (
 						<p className="text-xs font-semibold rounded-md px-2 py-0.5 bg-red-400 text-black">
 							{status}
 						</p>

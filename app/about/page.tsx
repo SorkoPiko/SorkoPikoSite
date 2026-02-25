@@ -11,9 +11,11 @@ export default function About() {
 				<br /><br />
 				In March, I decided to finally update my website, which was quite outdated. However, instead of using HTML, CSS and JS, like I did for my original one, I decided to create it in NextJS. This allowed me to make it exactly how I imagined, and it turned out great.
 				<br /><br />
-				In July, I began making mods for a game which I had played for a long time, Geometry Dash. I started with simple mods, but soon moved on to more complex ones, before eventually taking commissions on Fiverr. Through making these mods, I learned C++, which I now regularly use for smaller projects. Currently (09/05/2025), my mods have 107,000 combined downloads. You can find my mods <a href="https://geode-sdk.org/mods?developer=sorkopiko" target="_blank" className="text-blue-500 underline">here</a>.
+				In July, I began making mods for a game which I had played for a long time, Geometry Dash. I started with simple mods, but soon moved on to more complex ones, before eventually taking commissions on Fiverr. Through making these mods, I learned C++, which I now regularly use for smaller projects. Currently (25/02/2026), my mods have accrued over 181,000 combined downloads. You can find my mods <a href="https://geode-sdk.org/mods?developer=sorkopiko" target="_blank" className="text-blue-500 underline">here</a>.
 				<br /><br />
 				In January of 2025, I started work on a new project, SendDB. This is a Discord bot that tracks level sends in Geometry Dash. In March, the bot was verified, and in April, it hit 100 servers. You can find the bot <a href="https://discord.gg/MeWY462WJv" target="_blank" className="text-blue-500 underline">here</a>.
+				<br /><br />
+				A year later, in 2026, I expanded SendDB by adding an API (written in Rust), a website (written in React) and a Geode mod (written in C++). The website can be found at <a href="https://senddb.dev" target="_blank" className="text-blue-500 underline">senddb.dev</a>.
 				</p>
 			</div>
 		</>

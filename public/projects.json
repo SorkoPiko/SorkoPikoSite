@@ -2,10 +2,10 @@
 	"projects": [
 		{
 			"name": "SendDB",
-			"description": "A Discord bot that allows you to track Geometry Dash level sends. Comes with many leaderboards and features like DM notifications.",
+			"description": "Easily track Geometry Dash level sends. Available as a website, Geode mod and Discord bot.",
 			"startTimestamp": 1736322540,
-			"status": "Ongoing",
-			"link": "https://discord.gg/MeWY462WJv",
+			"status": "Maintained",
+			"link": "https://senddb.dev",
 			"extra": {
 				"src": "https://wakatime.com/badge/github/SorkoPiko/SendDB.svg",
 				"alt": "wakatime"
@@ -16,26 +16,15 @@
 			"description": "A collection of mods for Geometry Dash. Mainly QoL and utility mods.",
 			"startTimestamp": 1721280660,
 			"endTimestamp": 1732249980,
-			"status": "Finished",
+			"status": "Maintained",
 			"link": "https://geode-sdk.org/mods?developer=sorkopiko"
-		},
-		{
-			"name": "GDSW-API",
-			"description": "A simple API for the GD Secret Way Mod. Written in Python using FastAPI.",
-			"startTimestamp": 1721260800,
-			"status": "Finished",
-			"link": "https://github.com/SorkoPiko/GDSW-API",
-			"extra": {
-				"src": "https://wakatime.com/badge/github/SorkoPiko/GDSW-API.svg",
-				"alt": "wakatime"
-			}
 		},
 		{
 			"name": "Personal Site",
 			"description": "My new website, written in NextJS. This was my first web framework project.",
 			"startTimestamp": 1710720000,
-			"status": "Finished",
-			"link": "https://github.com/SorkoPiko/SorkoPikoSite",
+			"status": "Maintained",
+			"link": "https://github.com/SorkoPiko/SorkoPiko.com",
 			"extra": {
 				"src": "https://wakatime.com/badge/github/SorkoPiko/SorkoPikoSite.svg",
 				"alt": "wakatime"
@@ -45,7 +34,7 @@
 			"name": "Pikopian Empire Bot",
 			"description": "Private Discord bot to link a Hypxixel guild to a Discord server. Includes many features such as guild stats, automatic Bedwars stats updates and more.",
 			"startTimestamp": 1704067200,
-			"status": "Ongoing",
+			"status": "Discontinued",
 			"extra": {
 				"src": "https://wakatime.com/badge/github/SorkoPiko/PikopianEmpireBot.svg",
 				"alt": "wakatime"
@@ -55,13 +44,13 @@
 			"name": "Oasis Events",
 			"description": "A Minecraft event server with custom plugins and events. Co-owned with a friend.",
 			"startTimestamp": 1706745600,
-			"status": "Ongoing"
+			"status": "Discontinued"
 		},
 		{
 			"name": "Skript Plugins",
 			"description": "Minecraft server plugins, created on request. Past work: Mythic SMP Plugin, Oasis Events Plugin, Hunters SMP Plugin.",
 			"startTimestamp": 1706745600,
-			"status": "Ongoing",
+			"status": "Finished",
 			"extra": {
 				"src": "https://wakatime.com/badge/user/16aa5e7e-a470-4b0c-9ed4-25e656d300a4/project/018db40b-67aa-495f-883a-6cdfe5705ee3.svg",
 				"alt": "wakatime"
@@ -71,22 +60,15 @@
 			"name": "Ballsdex Utils",
 			"description": "A Discord bot created to improve the Ballsdex experience. Includes many QOL features.",
 			"startTimestamp": 1696122000,
-			"status": "Abandoned",
+			"status": "Discontinued",
 			"link": "https://github.com/SorkoPiko/BallsdexUtils"
-		},
-		{
-			"name": "goldenCookieSettings",
-			"description": "Cookie Clicker add-on, adding settings to control how golden cookies behave.",
-			"startTimestamp": 1651327200,
-			"status": "Finished",
-			"link": "https://github.com/SorkoPiko/goldenCookieSettings"
 		},
 		{
 			"name": "ServerManager",
 			"description": "My first Discord bot, used to manage your Discord server. This was my first Discord.py project.",
 			"startTimestamp": 1588294800,
 			"endTimestamp": 1633050000,
-			"status": "Abandoned",
+			"status": "Discontinued",
 			"link": "https://github.com/SorkoPiko/ServerManager"
 		},
 		{
@@ -94,7 +76,7 @@
 			"description": "My old website, written in HTML, CSS, and JS. This was my first web project.",
 			"startTimestamp": 1525136400,
 			"endTimestamp": 1685581200,
-			"status": "Abandoned"
+			"status": "Discontinued"
 		}
 	]
 }
